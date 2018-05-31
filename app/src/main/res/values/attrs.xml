@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchableSpinner">
+        <attr name="list" format="reference" />
+    </declare-styleable>
+    <array name="letter_tile_colors">
+        <item>#f16364</item>
+        <item>#67bf74</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#59a2be</item>
+        <item>#f58559</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    <declare-styleable name="PasswordView">
+        <attr name="strikeThrough" format="boolean"/>
+        <attr name="eyeTint" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SimpleArcLoader">
+
+        <attr name="arc_style" format="enum">
+            <enum name="simple_arc" value="0"></enum>
+            <enum name="complete_arc" value="1"></enum>
+        </attr>
+
+        <attr name="arc_margin" format="dimension"/>
+        <attr name="arc_thickness" format="dimension"/>
+
+        <attr name="arc_speed" format="enum">
+            <enum name="slow" value="0"></enum>
+            <enum name="medium" value="1"></enum>
+            <enum name="fast" value="2"></enum>
+        </attr>
+
+        <attr name="arc_colors" format="reference"></attr>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_orderConfirmation_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6E6CC"
+    android:orientation="vertical"
+    android:paddingBottom="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:id="@+id/dialogHeader"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/green">
+
+                <TextView
+                    android:id="@+id/dialogHeaderText"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/order_confirmation"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rejectBackGround"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D6E6CC"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/iv_accept_reject"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_check" />
+
+                <TextView
+                    android:id="@+id/dialogConfirmText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_accepted"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/small" />
+
+                <LinearLayout
+                    android:id="@+id/orderNoLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/order_number"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/small" />
+
+                    <TextView
+                        android:id="@+id/dialogOrderId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:paddingLeft="2dp"
+                        android:paddingStart="2dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/expextedTimeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/ExpectedTime"
+                        android:textColor="@color/accent_color"
+                        android:textSize="@dimen/small" />
+
+                    <TextView
+                        android:id="@+id/dialogExpectedTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="2dp"
+                        android:paddingStart="2dp"
+                        android:text=" 12:30"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_reject_reason"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/reason"
+                        android:textColor="@color/accent_color"
+                        android:textSize="@dimen/small" />
+
+                    <TextView
+                        android:id="@+id/tv_reject_reason"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:padding="4dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D6E6CC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:padding="4dp"
+                    android:text="@string/any_questions"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/small" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:padding="4dp"
+                        android:text="@string/call_us"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small" />
+
+                    <TextView
+                        android:id="@+id/tv_any_questions_call_us"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:padding="4dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBackToMain"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/buttonHeight"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:background="@drawable/button_green"
+                android:padding="10dp"
+                android:text="@string/menu"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/medium" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

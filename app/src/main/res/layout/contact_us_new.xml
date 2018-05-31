@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_fragment" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/contactusll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/contactrestroImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/contactrestroName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/accent_color"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        android:id="@+id/conatctabtaddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="start"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/conatctphoneNO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:autoLink="phone"
+                        android:gravity="start"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColorLink="@android:color/holo_blue_dark"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/black"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="20dp">
+
+                <!--<LinearLayout-->
+                <!--android:id="@+id/fnameLnameLayout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/mediumheight"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:visibility="visible">-->
+
+                <EditText
+                    android:id="@+id/contact_edttxtFirstName"
+                    style="@style/styleEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:hint="@string/first_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/medium"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/contact_edttxtLastName"
+                    style="@style/styleEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:hint="@string/last_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/medium"
+                    android:visibility="gone" />
+
+                <!--</LinearLayout>-->
+
+                <EditText
+                    android:id="@+id/contact_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:hint="@string/please_enter_your_email_address"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/text_size" />
+
+                <EditText
+                    android:id="@+id/contact_phone"
+                    style="@style/styleEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:hint="@string/telephone_number"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/text_size"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/contact_inputtxtPostelCode"
+                    style="@style/styleEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_bg"
+                    android:clickable="true"
+                    android:hint="@string/postal_code"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/medium"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/contact_inputtxtKummonName"
+                    style="@style/styleEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_bg"
+                    android:clickable="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/medium"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/contact_cityname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:hint="@string/city_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/text_size"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/contact_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:hint="@string/address"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/text_size"
+                    android:visibility="gone" />
+
+                <Button
+                    style="@style/styleEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_bg"
+                    android:clickable="true"
+                    android:hint="@string/city_name"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/medium"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="15dp">
+
+                <EditText
+                    android:id="@+id/contact_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:gravity="top"
+                    android:hint="@string/please_enter_message"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="@dimen/text_size" />
+
+                <CheckBox
+                    android:id="@+id/contact_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/green"
+                    android:buttonTint="@color/green"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:text="@string/send_me_a_copy"
+                    android:textColor="@color/darkgray"
+                    android:textColorHint="@color/darkgray" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/cntact_btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/buttonHeight"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_green"
+                android:gravity="center"
+                android:text="@string/send"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/medium" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout><!--<?xml version="1.0" encoding="utf-8"?>--><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_marginBottom="?attr/actionBarSize"--><!--android:background="@color/white"--><!--android:clickable="true"--><!--android:orientation="vertical"--><!--android:weightSum="100">-->
+
+    <!--<include--><!--android:id="@+id/toolbar"--><!--layout="@layout/toolbar_fragment" />-->
+
+    <!--<ScrollView--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">-->
+
+    <!--<LinearLayout--><!--android:id="@+id/contactusll"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:gravity="top|center"--><!--android:orientation="vertical"--><!--android:weightSum="100">-->
+
+    <!--<LinearLayout-->
+
+    <!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:orientation="vertical">-->
+
+    <!--<LinearLayout--><!--android:layout_width="250dp"--><!--android:layout_height="100dp"--><!--android:layout_gravity="center"--><!--android:layout_marginTop="5dp"--><!--android:gravity="center_vertical"--><!--android:orientation="horizontal">-->
+
+    <!--<ImageView--><!--android:id="@+id/contactrestroImage"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_gravity="center" />--><!--</LinearLayout>-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="5dp"--><!--android:gravity="center"--><!--android:orientation="vertical"--><!--android:paddingLeft="@dimen/activity_horizontal_margin"--><!--android:paddingRight="@dimen/activity_horizontal_margin">-->
+
+    <!--<TextView--><!--android:id="@+id/contactrestroName"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="center"--><!--android:gravity="start"--><!--android:textSize="25sp"--><!--android:textStyle="bold" />-->
+
+    <!--<TextView--><!--android:id="@+id/conatctabtaddress"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="center"--><!--android:gravity="start"--><!--android:textSize="17sp" />-->
+
+
+    <!--<TextView--><!--android:id="@+id/conatctphoneNO"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="center"--><!--android:autoLink="phone"--><!--android:gravity="start"--><!--android:textColor="@android:color/holo_blue_dark"--><!--android:textSize="17sp" />-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<View--><!--android:layout_width="match_parent"--><!--android:layout_height="1dp"--><!--android:background="@color/black" />-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:orientation="vertical"--><!--android:paddingLeft="16dp"--><!--android:paddingRight="16dp"--><!--android:paddingTop="20dp">-->
+
+    <!--<LinearLayout--><!--android:id="@+id/fnameLnameLayout"--><!--android:layout_width="match_parent"--><!--android:layout_height="@dimen/mediumheight"--><!--android:layout_marginTop="15dp"--><!--android:orientation="horizontal"--><!--android:visibility="gone">-->
+
+    <!--<EditText--><!--android:id="@+id/contact_edttxtFirstName"--><!--style="@style/styleEditText"--><!--android:layout_width="0dp"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:background="@drawable/edit_text_bg"--><!--android:hint="@string/firstname"--><!--android:imeOptions="actionNext"--><!--android:maxLines="1"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/medium" />-->
+
+    <!--<EditText--><!--android:id="@+id/contact_edttxtLastName"--><!--style="@style/styleEditText"--><!--android:layout_width="0dp"--><!--android:layout_height="match_parent"--><!--android:layout_marginLeft="5dp"--><!--android:layout_weight="1"--><!--android:background="@drawable/edit_text_bg"--><!--android:hint="@string/lastname"--><!--android:imeOptions="actionNext"--><!--android:maxLines="1"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/medium" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<EditText--><!--android:id="@+id/contact_email"--><!--android:layout_width="match_parent"--><!--android:layout_height="50dp"--><!--android:layout_marginTop="10dp"--><!--android:background="@drawable/edit_text_bg"--><!--android:hint="Enter Email"--><!--android:imeOptions="actionNext"--><!--android:inputType="textEmailAddress"--><!--android:padding="5dp"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/text_size" />-->
+
+    <!--<EditText--><!--android:id="@+id/contact_address"--><!--android:layout_width="match_parent"--><!--android:layout_height="50dp"--><!--android:layout_marginTop="10dp"--><!--android:background="@drawable/edit_text_bg"--><!--android:hint="Enter address"--><!--android:imeOptions="actionNext"--><!--android:inputType="textEmailAddress"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/text_size"--><!--android:visibility="gone" />-->
+
+    <!--<EditText--><!--android:id="@+id/contact_phone"--><!--style="@style/styleEditText"--><!--android:layout_width="match_parent"--><!--android:layout_height="50dp"--><!--android:layout_marginTop="10dp"--><!--android:background="@drawable/edit_text_bg"--><!--android:hint="Enter your Phone Number"--><!--android:imeOptions="actionNext"--><!--android:inputType="phone"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/text_size"--><!--android:visibility="gone" />-->
+
+    <!--<EditText--><!--android:id="@+id/contact_inputtxtPostelCode"--><!--style="@style/styleEditText"--><!--android:layout_width="match_parent"--><!--android:layout_height="50dp"--><!--android:layout_marginTop="10dp"--><!--android:layout_weight="1"--><!--android:background="@drawable/edit_text_bg"--><!--android:clickable="true"--><!--android:hint="@string/postal_code"--><!--android:imeOptions="actionNext"--><!--android:inputType="text"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/medium"--><!--android:visibility="gone" />-->
+
+    <!--<EditText--><!--android:id="@+id/contact_inputtxtKummonName"--><!--style="@style/styleEditText"--><!--android:layout_width="match_parent"--><!--android:layout_height="50dp"--><!--android:layout_marginTop="10dp"--><!--android:layout_weight="1"--><!--android:background="@drawable/edit_text_bg"--><!--android:clickable="true"--><!--android:hint="@string/kummunName"--><!--android:imeOptions="actionNext"--><!--android:inputType="text"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/medium"--><!--android:visibility="gone" />-->
+
+    <!--<EditText--><!--android:id="@+id/contact_cityname"--><!--android:layout_width="match_parent"--><!--android:layout_height="50dp"--><!--android:layout_marginTop="10dp"--><!--android:background="@drawable/edit_text_bg"--><!--android:hint="@string/city_name"--><!--android:imeOptions="actionNext"--><!--android:inputType="text"--><!--android:padding="5dp"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/text_size"--><!--android:visibility="gone" />-->
+
+    <!--<Button--><!--style="@style/styleEditText"--><!--android:layout_width="match_parent"--><!--android:layout_height="0dp"--><!--android:layout_marginTop="10dp"--><!--android:layout_weight="1"--><!--android:background="@drawable/edit_text_bg"--><!--android:clickable="true"--><!--android:hint="@string/city_name"--><!--android:paddingLeft="10dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/medium"--><!--android:visibility="gone" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:orientation="vertical"--><!--android:paddingLeft="16dp"--><!--android:paddingRight="16dp"--><!--android:paddingTop="15dp">-->
+
+    <!--<EditText--><!--android:id="@+id/contact_msg"--><!--android:layout_width="match_parent"--><!--android:layout_height="90dp"--><!--android:layout_marginTop="5dp"--><!--android:background="@drawable/edit_text_bg"--><!--android:gravity="top"--><!--android:hint="Please enter message"--><!--android:imeOptions="actionDone"--><!--android:inputType="text"--><!--android:padding="5dp"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray"--><!--android:textSize="@dimen/text_size" />-->
+
+    <!--<CheckBox--><!--android:id="@+id/contact_checkbox"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="10dp"--><!--android:backgroundTint="@color/green"--><!--android:buttonTint="@color/green"--><!--android:padding="10dp"--><!--android:text="Send me the Copy"--><!--android:textColor="@color/darkgray"--><!--android:textColorHint="@color/darkgray" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<Button--><!--android:id="@+id/cntact_btnSubmit"--><!--android:layout_width="match_parent"--><!--android:layout_height="@dimen/buttonHeight"--><!--android:layout_alignParentBottom="true"--><!--android:layout_alignParentLeft="true"--><!--android:layout_alignParentStart="true"--><!--android:layout_margin="8dp"--><!--android:background="@drawable/button_green"--><!--android:gravity="center"--><!--android:text="@string/submit"--><!--android:textAllCaps="false"--><!--android:textColor="@color/white"--><!--android:textSize="@dimen/medium" />--><!--</LinearLayout>--><!--</ScrollView>--><!--</LinearLayout>-->

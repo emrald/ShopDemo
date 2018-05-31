@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_splashScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="200dp"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            app:layout_heightPercent="30%"
+            app:layout_widthPercent="100%" />
+
+        <LinearLayout
+            android:id="@+id/ll_contact_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_splashScreen"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            app:layout_heightPercent="30%"
+            app:layout_widthPercent="100%">
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:visibility="gone">-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:src="@mipmap/ic_phone" />
+
+                <TextView
+                    android:id="@+id/tv_phone_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:gravity="top"
+                    android:text="@string/phone_number"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginTop="18dp"-->
+            <!--android:layout_weight="9"-->
+            <!--android:gravity="center|start"-->
+            <!--android:orientation="vertical">-->
+
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="@color/white"
+                android:textSize="@dimen/large"
+                android:textStyle="bold" />
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_powered_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|bottom"
+            android:text="@string/powered_by"
+            android:textColor="@color/accent_color" />
+
+        <ImageView
+            android:id="@+id/epoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:src="@drawable/epointlogo" />
+    </LinearLayout>
+</LinearLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@drawable/ic_background"--><!--android:orientation="vertical">-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="0dp"--><!--android:layout_marginTop="36dp"--><!--android:layout_weight="4"--><!--android:gravity="center"--><!--android:orientation="vertical">-->
+
+    <!--<ImageView--><!--android:id="@+id/iv_splashScreen"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:padding="16dp"--><!--android:scaleType="centerCrop"--><!--android:src="@drawable/test_splash" />--><!--</LinearLayout>-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="0dp"--><!--android:layout_weight="2.5"--><!--android:gravity="center"--><!--android:orientation="horizontal"--><!--android:visibility="invisible">-->
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:gravity="center"&ndash;&gt;--><!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;--><!--&lt;!&ndash;android:visibility="gone">&ndash;&gt;-->
+
+    <!--<ImageView--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="center|end"--><!--android:layout_marginTop="20dp"--><!--android:padding="16dp"--><!--android:src="@mipmap/ic_phone" />-->
+
+    <!--<LinearLayout--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="18dp"--><!--android:layout_weight="1"--><!--android:gravity="center|left"--><!--android:orientation="vertical">-->
+
+    <!--<TextView--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="@string/phone_number"--><!--android:textColor="@color/white"--><!--android:textSize="@dimen/large"--><!--android:textStyle="bold" />-->
+
+    <!--<TextView--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="@string/address"--><!--android:textColor="@color/white"--><!--android:textSize="@dimen/large"--><!--android:textStyle="bold" />--><!--</LinearLayout>--><!--&lt;!&ndash;</LinearLayout>&ndash;&gt;--><!--</LinearLayout>-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="0dp"--><!--android:layout_weight="1.5"--><!--android:orientation="vertical">-->
+
+    <!--<ImageView--><!--android:id="@+id/epoint"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="8dp"--><!--android:src="@drawable/e_point_logo" />--><!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->

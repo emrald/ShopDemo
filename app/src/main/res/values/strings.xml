@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RNS</string>
+    <!--<string name="facebook_app_id">175116039580087</string>-->
+    <!--eatmore.dk-->
+    <string name="facebook_app_id">1711214252503309</string>
+
+    <!-- Crash report -->
+    <string name="crash_toast_text"> Application unexpectedly closed,Would you like to inform it to developer team ? </string>
+    <string name="crash_title"> Send crash report </string>
+
+    <!-- Splash Screen -->
+    <string name="phone_number">Telephone No</string>
+    <string name="powered_by">Powered by</string>
+    <string name="app_update">App Update</string>
+    <string name="new_update">New update</string>
+    <string name="please_update_the_app">Please update the app</string>
+
+    <!--login screen-->
+    <string name="opening_hour">Opening hours</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="ForgotPassword"><u>Forgot password?</u></string>
+    <string name="NewUser">New user?</string>
+    <string name="NeedHelp"><u>Need Help?</u></string>
+    <string name="facebooklogin">Login with Facebook</string>
+    <string name="swipe_for_menu">Swipe right for menu >></string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="please_enter_your_email_address">Please enter your Email address</string>
+    <string name="send">Send</string>
+    <!--login screen Messages and Alert Messages -->
+    <string name="email_blank">E-mail cannot be blank.</string>
+    <string name="invalid_email">Enter valid email</string>
+    <string name="password_empty">Password cannot be blank.</string>
+
+    <!--Sign Up-->
+    <string name="create_new_user">Create New User</string>
+    <string name="upload_an_image">Upload an image</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="telephone_number">Telephone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="street">Street and number</string>
+    <string name="floor_door">Floor/Door</string>
+    <string name="postal_code">Select Postal Code</string>
+    <string name="city_name">City</string>
+    <string name="create_user">Create</string>
+
+    <string name="select_image">Select image</string>
+    <string name="take_from_camera">Take from camera</string>
+    <string name="select_from_gallery">Select from gallery</string>
+
+    <!--Sign Up with Facebook-->
+    <string name="save">Save</string>
+    <string name="Cancel">Cancel</string>
+
+    <!-- InfoBar Fragment Menu-->
+    <string name="my_account">My Account</string>
+    <string name="my_orders">My Orders</string>
+    <string name="giftcards">Gift Card</string>
+    <string name="call">Call</string>
+    <string name="Opening_Hours">Opening Hours</string>
+    <string name="directions">Directions</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="How_it_works">How it works!</string>
+    <string name="payment_method">Payment method</string>
+    <string name="control_support">Health Report</string>
+    <string name="terms_of_service">Terms Of Service</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="please_login">Please Login</string>
+    <string name="helps">Help</string>
+
+    <!-- Contact Us-->
+    <string name="please_enter_message">Please enter message</string>
+    <string name="send_me_a_copy">Send me a copy</string>
+
+    <!-- How it works-->
+    <string name="how_it_works">How it works</string>
+
+    <!-- Payment Methods-->
+    <string name="you_can_pay_using_following_methods">You can pay using following methods</string>
+
+    <!-- Edit Profile-->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="edit_name_postal_Name">Postal Code</string>
+    <string name="delete_account_confirm">Are you sure you want to delete your account?</string>
+    <string name="deleted_account_success">Your account is deleted successfully.</string>
+    <string name="edit_done">Your profile has been updated successfully.</string>
+
+    <!-- My Orders-->
+    <string name="no_orders">You have no orders.</string>
+
+    <string name="order_no">Order No.</string>
+    <string name="order_date">Order date</string>
+    <string name="total_payment">Total Payment</string>
+    <string name="expected_time">Expected Time</string>
+    <string name="discount">Discount</string>
+    <string name="order_details">Order Details</string>
+
+    <string name="my_order_details">Orders Details</string>
+    <string name="order_No">Order No.:</string>
+    <string name="qty">Qty</string>
+    <string name="product_details">Product Details</string>
+    <string name="Subtotal">Subtotal:</string>
+    <string name="Discount">Discount:</string>
+    <string name="Shipping">Shipping:</string>
+    <string name="Total">Total:</string>
+    <string name="dkk_per_qty">&#160;DKK/Qty</string>
+
+    <!-- Gift Card-->
+    <string name="no_gift_cards">You have no Gift Cards.</string>
+
+    <string name="value">Value</string>
+    <string name="copy">Copy</string>
+    <string name="get_up_to">Get up to</string>
+    <string name="off">Off</string>
+    <string name="giftcard_validity">Giftcard valid till 11-Mar-2017 ( limited time offer )</string>
+    <string name="giftcard_valid_till">Giftcard valid till</string>
+    <string name="limited_time_offer">limited time offer</string>
+
+    <!-- Change Password-->
+    <string name="type_old_pass">Old password</string>
+    <string name="type_new_pass">New password</string>
+    <string name="type_new_confir">Confirm password</string>
+
+    <!-- Menu Fragment-->
+    <string name="search_by_keyword">Search by keyword</string>
+    <string name="search_result">Searched result</string>
+    <string name="no_product_in_category">There is no product with this category</string>
+    <string name="no_result">No records</string>
+    <string name="from">From</string>
+
+    <!-- Product Details Fragment-->
+    <string name="ingredients">Ingredients</string>
+    <string name="press_on_an_ingredient_to_remove_it">(Press on an ingredient to remove it.)</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="product_added_to_cart">Product added to cart</string>
+    <string name="added_to_cart">added</string>
+
+    <!-- My Cart Fragment-->
+    <string name="my_cart">My Cart</string>
+    <string name="order_total">Order total</string>
+    <string name="checkout">Checkout</string>
+
+    <string name="product_quantity_updated">Product quantity is updated successfully</string>
+    <string name="remove_product_from_cart">Do you really want to remove this product from cart?</string>
+
+    <!-- Checkout Fragment-->
+    <string name="shipping_method">Shipping method</string>
+    <string name="delivery">Delivery</string>
+    <string name="pick_up">Pick up</string>
+    <string name="choose_delivery_time">Choose Delivery Time</string>
+    <string name="choose_pickup_time">Choose Pickup Time</string>
+    <string name="change_shipping_method">Would you like to use different contact information/shipping address?</string>
+
+    <string name="shipping_charge">Shipping Charge:&#160;</string>
+    <string name="from_price">From (Price)</string>
+    <string name="to_price">To (Price)</string>
+    <string name="charge_kr">Charge (kr)</string>
+    <string name="from_km">From (km)</string>
+    <string name="to_km">To (km)</string>
+    <string name="onwards">Onwards</string>
+
+    <string name="enter_postal_code">Postal code</string>
+    <string name="apply_coupon_gift_card">Coupon/GiftCard</string>
+    <string name="apply">Apply</string>
+    <string name="invalid_coupon">Please enter the Coupon/Giftcard code</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="shipping">Shipping</string>
+    <string name="total">Total</string>
+    <string name="comments">Comments</string>
+    <string name="confirm_Order">Confirm</string>
+
+    <!-- Order Confirmation/Rejection-->
+    <string name="order_confirmation">Order Confirmation</string>
+    <string name="order_accepted">Your order has been accepted</string>
+    <string name="order_rejection">Order Rejected</string>
+    <string name="order_rejected">Your order has been rejected.</string>
+    <string name="order_number">Order Number :&#160;</string>
+    <string name="ExpectedTime">Expected time : &#160;</string>
+    <string name="reason">Reason : &#160;</string>
+    <string name="any_questions">If you have any questions or enquiries</string>
+    <string name="call_us">Please call us on :&#160;</string>
+    <string name="menu">Menu</string>
+
+    <!-- Common Strings for Dialog-->
+    <string name="alert">Alert</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="close">Close</string>
+    <string name="internet_unavailable_message">Turn on internet connection or use Wi-Fi to access data</string>
+    <string name="logout">Are you sure to logout?</string>
+    <string name="close_app">Are you sure you want to exit?</string>
+
+    <!-- Common Validations-->
+    <string name="try_again">Please try again</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="term_of_service_not_accepted">Please read and accept our terms of service.</string>
+
+    <!-- Sign Up-->
+    <string name="cannot_be_blank_field">This field cannot be blank</string>
+    <string name="first_name_limit">First name characters limit should come between 3&#8211;100</string>
+    <string name="last_name_limit">Last name characters limit should come between 3&#8211;100</string>
+    <string name="only_alpha_numeric">Only alpha numeric characters are allowed</string>
+    <string name="password_minimum_length">Password should contain at least 6 characters</string>
+    <string name="confirm_password_not_match">Confirm password didn\'t match</string>
+    <string name="invalid_phone_number">Phone number is not valid.</string>
+    <string name="empty_street_number">Street + number cannot be blank.</string>
+    <string name="invalid_postal_code">Postal code name is not valid.</string>
+    <string name="invalid_city_name">City name is not valid.</string>
+    <string name="congrats">Congratulations</string>
+    <string name="sign_up_done_msg">Your profile has been created successfully.</string>
+
+    <array name="arc_colors">
+        <item>#019E0F</item>
+        <item>#019E0F</item>
+    </array>
+
+    <string name="login_error_msg">We are sorry, either email or password is wrong, please use forget password.</string>
+
+    <plurals name="likes_count">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+
+    <!-- For About us-->
+    <string name="aboutus">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsumt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed to using Content here, content here making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the like</string>
+
+    <!-- for activity your order-->
+    <string name="your_order">Your order</string>
+
+    <!--order confirm-->
+    <string name="tab_1"></string>
+
+    //activity names title
+    <string name="registration">Registration</string>
+
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_negative">NO</string>
+    <string name="error_empty_input">You can\'t leave input field empty</string>
+    <string name="thank_you">Thank you</string>
+
+</resources>

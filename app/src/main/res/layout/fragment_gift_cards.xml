@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context="com.eatmore.demo.dk.eatmore.demo.fragments.GiftCardsFragment">
+
+    <include
+        android:id="@+id/toolbar_gifts"
+        layout="@layout/toolbar_fragment" />
+
+    <include
+        android:id="@+id/error_layout"
+        layout="@layout/layout_error_message" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_gift_cards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

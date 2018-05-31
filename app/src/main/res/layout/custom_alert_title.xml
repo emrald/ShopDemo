@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/green"
+    android:minHeight="50dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:src="@drawable/ic_food_white_36dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/dialogtitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Medium Text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_product_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:paddingTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3">
+
+                <ImageView
+                    android:id="@+id/pizzaImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    app:layout_widthPercent="20%" />
+                <!--android:src="@drawable/ic_error"-->
+
+                <TextView
+                    android:id="@+id/prodName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_toEndOf="@+id/pizzaImage"
+                    android:layout_toRightOf="@+id/pizzaImage"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:maxLines="2"
+                    android:textColor="@color/border_gray"
+                    android:textSize="@dimen/large"
+                    android:textStyle="bold"
+                    app:layout_widthPercent="80%" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <!--<android.support.percent.PercentRelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_from"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="end"-->
+            <!--android:paddingEnd="8dp"-->
+            <!--android:paddingRight="8dp"-->
+            <!--android:text="From"-->
+            <!--android:textColor="@color/border_gray"-->
+            <!--android:textSize="@dimen/medium"-->
+            <!--app:layout_heightPercent="80%" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/prodPrice"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/tv_from"-->
+            <!--android:gravity="end"-->
+            <!--android:paddingEnd="8dp"-->
+            <!--android:paddingRight="8dp"-->
+            <!--android:text="100.00 kr"-->
+            <!--android:textColor="@color/border_gray"-->
+            <!--android:textSize="@dimen/medium"-->
+            <!--android:textStyle="bold"-->
+            <!--app:layout_heightPercent="80%" />-->
+            <!--</android.support.percent.PercentRelativeLayout>-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="end|center"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/from"
+                    android:textColor="@color/border_gray"
+                    android:textSize="@dimen/medium" />
+
+                <TextView
+                    android:id="@+id/prodPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="end|center"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
+                    android:text="100.00 kr"
+                    android:textColor="@color/border_gray"
+                    android:textSize="@dimen/medium"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_cart_ectratoping"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight=".4"
+                android:src="@drawable/ic_add" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/prodItemDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

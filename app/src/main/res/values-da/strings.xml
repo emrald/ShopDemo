@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RNS</string>
+    <!--<string name="facebook_app_id">175116039580087</string>-->
+    <!--eatmore.dk-->
+    <string name="facebook_app_id">1711214252503309</string>
+
+    <!-- Crash report -->
+    <string name="crash_toast_text"> Application unexpectedly closed,Would you like to inform it to developer team ? </string>
+    <string name="crash_title"> Send crash report </string>
+
+    <!-- Splash Screen -->
+    <string name="phone_number">Telefonnummer</string>
+    <string name="powered_by">Powered by</string>
+    <string name="app_update">Opdatere</string>
+    <string name="new_update">Opdatere venligst din applikation</string>
+    <string name="please_update_the_app">Opdatere</string>
+
+    <!--login screen-->
+    <string name="opening_hour">Åbningstider</string>
+    <string name="address">Adresse</string>
+    <string name="email">E-mail adresse</string>
+    <string name="password">Adgangskode</string>
+    <string name="Login">Log ind</string>
+    <string name="ForgotPassword"><u>Glemt adgangskode?</u></string>
+    <string name="NewUser">Opret konto?</string>
+    <string name="NeedHelp"><u>Hjælp?</u></string>
+    <string name="facebooklogin">Log ind med Facebook</string>
+    <string name="swipe_for_menu">Skub for menu >></string>
+    <string name="forgot_password">Glemt adgangskode?</string>
+    <string name="please_enter_your_email_address">Indtast venligst din e-mail</string>
+    <string name="send">Send</string>
+    <!--login screen Messages and Alert Messages -->
+    <string name="email_blank">E-mail kan ikke være tom.</string>
+    <string name="invalid_email">Indtast en gyldig E-mail adresse</string>
+    <string name="password_empty">Adgangskode kan ikke være tom.</string>
+
+    <!--Sign Up-->
+    <string name="create_new_user">Opret konto</string>
+    <string name="upload_an_image">Billed (valgfrit)</string>
+    <string name="first_name">Fornavn</string>
+    <string name="last_name">Efternavn</string>
+    <string name="telephone_number">Telefonnummer</string>
+    <string name="confirm_password">Bekræft adgangskode</string>
+    <string name="street">Adresse + Husnummer</string>
+    <string name="floor_door">Etage/dør</string>
+    <string name="postal_code">Postnummer</string>
+    <string name="city_name">By</string>
+    <string name="create_user">Opret</string>
+
+    <string name="select_image">Select image</string>
+    <string name="take_from_camera">Tag et billede</string>
+    <string name="select_from_gallery">Vælg mellem biblioteket</string>
+
+    <!--Sign Up with Facebook-->
+    <string name="save">Gem</string>
+    <string name="Cancel">Annuller</string>
+
+    <!-- InfoBar Fragment Menu-->
+    <string name="my_account">Profil</string>
+    <string name="my_orders">Ordre</string>
+    <string name="giftcards">Gavekort</string>
+    <string name="call">Ring</string>
+    <string name="Opening_Hours">Åbningstider</string>
+    <string name="directions">Rutevejledning</string>
+    <string name="contact_us">Kontakt os</string>
+    <string name="about_us">Om os</string>
+    <string name="How_it_works">Hvordan virker appen!</string>
+    <string name="payment_method">Betalingsmetoder</string>
+    <string name="control_support">Kontrolrapport</string>
+    <string name="terms_of_service">Handelsbetingelser</string>
+    <string name="log_out">Log ud</string>
+
+    <string name="change_password">Ændre adgangskode</string>
+    <string name="please_login">Log ind</string>
+    <string name="helps">Hjælp</string>
+
+    <!-- Contact Us-->
+    <string name="please_enter_message">Skriv venligst din besked</string>
+    <string name="send_me_a_copy">Send mig en kopi</string>
+
+    <!-- How it works-->
+    <string name="how_it_works">Hvordan virker appen</string>
+
+    <!-- Payment Methods-->
+    <string name="you_can_pay_using_following_methods">Følgende betalingsmetoder accepteres</string>
+
+    <!-- Edit Profile-->
+    <string name="edit_profile">Brugeroplysninger</string>
+    <string name="delete_account">Slet bruger</string>
+    <string name="edit_name_postal_Name">Postnummer</string>
+    <string name="delete_account_confirm">Vil de slette deres bruger?</string>
+    <string name="deleted_account_success">Din konto er hermed slettet.</string>
+    <string name="edit_done">Din brugeroplysninger er ændret.</string>
+
+    <!-- My Orders-->
+    <string name="no_orders">De har ingen ordre.</string>
+
+    <string name="order_no">Ordrenummer</string>
+    <string name="order_date">Ordre dato</string>
+    <string name="total_payment">Betalt i alt</string>
+    <string name="expected_time">Forventet tid</string>
+    <string name="discount">Rabat</string>
+    <string name="order_details">Ordre detaljer</string>
+
+    <string name="my_order_details">Ordre detaljer</string>
+    <string name="order_No">Ordrenummer:</string>
+    <string name="qty">antal</string>
+    <string name="product_details">Produkt detaljer</string>
+    <string name="Subtotal">Subtotal:</string>
+    <string name="Discount">Rabat:</string>
+    <string name="Shipping">Leveringsomkostninger:</string>
+    <string name="Total">Total:</string>
+    <string name="dkk_per_qty">&#160;DKK/stk</string>
+
+    <!-- Gift Card-->
+    <string name="no_gift_cards">You have no Gyldigt.</string>
+
+    <string name="value">Værdi</string>
+    <string name="copy">Kopier</string>
+    <string name="get_up_to">Resterende værdi</string>
+    <string name="off">Off</string>
+    <string name="giftcard_validity">Gyldigt indtil 11-Mar-2017 ( Tidsbegrænset tilbud )</string>
+    <string name="giftcard_valid_till">Gyldigt indtil</string>
+    <string name="limited_time_offer">Tidsbegrænset tilbud</string>
+
+    <!-- Change Password-->
+    <string name="type_old_pass">Nuværende adgangskode</string>
+    <string name="type_new_pass">Ny adgangskode</string>
+    <string name="type_new_confir">Bekræft adgangskode</string>
+
+    <!-- Menu Fragment-->
+    <string name="search_by_keyword">Søg</string>
+    <string name="search_result">Søg resultat</string>
+    <string name="no_product_in_category">Der er ingen produkter med denne kategori</string>
+    <string name="no_result">No records</string>
+    <string name="from">Fra</string>
+
+    <!-- Product Details Fragment-->
+    <string name="ingredients">Ingredienser</string>
+    <string name="press_on_an_ingredient_to_remove_it">(Tryk på ingredient for at fjerne fra din mad.)</string>
+    <string name="add_to_cart">Tilføj</string>
+    <string name="product_added_to_cart">Produkt er tilføjet</string>
+    <string name="added_to_cart">tilføjet</string>
+
+    <!-- My Cart Fragment-->
+    <string name="my_cart">Indkøbskurv</string>
+    <string name="order_total">Ordre total</string>
+    <string name="checkout">Til kassen</string>
+
+    <string name="product_quantity_updated">Opdateret</string>
+    <string name="remove_product_from_cart">Vil du slette?</string>
+
+    <!-- Checkout Fragment-->
+    <string name="shipping_method">Fragtmetode</string>
+    <string name="delivery">Udbringning</string>
+    <string name="pick_up">Hent selv</string>
+    <string name="choose_delivery_time">Vælg Leveringstid</string>
+    <string name="choose_pickup_time">Vælg Pickup Time</string>
+    <string name="change_shipping_method">Vil du gerne ændre dine brugeroplysninger midlertidigt?</string>
+
+    <string name="shipping_charge">Leveringsomkostninger:&#160;</string>
+    <string name="from_price">Fra (Pris)</string>
+    <string name="to_price">Til (Pris)</string>
+    <string name="charge_kr">Charge (kr)</string>
+    <string name="from_km">Fra (km)</string>
+    <string name="to_km">Til (km)</string>
+    <string name="onwards">Opefter</string>
+
+    <string name="enter_postal_code">Postnummer</string>
+    <string name="apply_coupon_gift_card">Kupon/Gavekort</string>
+    <string name="apply">Benyt</string>
+    <string name="invalid_coupon">Indtast kupon / Gavekort kode</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="shipping">Leveringsomkostninger</string>
+    <string name="total">Total</string>
+    <string name="comments">Dine bemærkninger</string>
+    <string name="confirm_Order">Bekræft</string>
+
+    <!-- Order Confirmation/Rejection-->
+    <string name="order_confirmation">Ordrebekræftelse</string>
+    <string name="order_accepted">Din ordre er blevet accepteret.</string>
+    <string name="order_rejection">Afvist</string>
+    <string name="order_rejected">Din ordre er desværre afvist.</string>
+    <string name="order_number">Ordrenummer :&#160;</string>
+    <string name="ExpectedTime">Forventet tid : &#160;</string>
+    <string name="reason">Årsag : &#160;</string>
+    <string name="any_questions">Hvis du har spørgsmål eller forespørgsler</string>
+    <string name="call_us">Ring venligst på :&#160;</string>
+    <string name="menu">Menu</string>
+
+    <!-- Common Strings for Dialog-->
+    <string name="alert">Alarm</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="dialog_no">Nej</string>
+    <string name="close">tæt</string>
+    <string name="internet_unavailable_message">Tænd internetforbindelse eller bruge Wi-Fi til at få adgang til data</string>
+    <string name="logout">Er du sikker på, at du vil logge ud?</string>
+    <string name="close_app">Vil de gerne forlade?</string>
+
+    <!-- Common Validations-->
+    <string name="try_again">Prøv venligst igen</string>
+    <string name="please_wait">Vent venligst…</string>
+    <string name="term_of_service_not_accepted">Venligst læs og acceptere vores handelsbetingelser.</string>
+
+    <!-- Sign Up-->
+    <string name="cannot_be_blank_field">Venligst udfyld korrekt</string>
+    <string name="first_name_limit">Fornavn charaters grænse bør komme mellem 3&#8211;100</string>
+    <string name="last_name_limit">Efternavn charaters grænse bør komme mellem 3&#8211;100</string>
+    <string name="only_alpha_numeric">Kun alfanumeriske tegn er tilladt.</string>
+    <string name="password_minimum_length">Password skal indeholde mindst 6 tegn</string>
+    <string name="confirm_password_not_match">Din adgangskode matcher ikke</string>
+    <string name="invalid_phone_number">Telefonnummer er ikke gyldigt.</string>
+    <string name="empty_street_number">Gade + Husnummer kan ikke være tom.</string>
+    <string name="invalid_postal_code">Postnummer navn er ikke gyldig.</string>
+    <string name="invalid_city_name">By navn er ikke gyldigt.</string>
+    <string name="congrats">Tillykke</string>
+    <string name="sign_up_done_msg">Din konto er hermed oprettet.</string>
+
+    <array name="arc_colors">
+        <item>#019E0F</item>
+        <item>#019E0F</item>
+    </array>
+
+    <string name="login_error_msg">We are sorry, either email or password is wrong, please use forget password.</string>
+
+    <!--edit profile-->
+
+    <!-- For About us-->
+    <string name="aboutus">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsumt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed to using Content here, content here making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the like</string>
+
+    <!-- for activity your order-->
+    <string name="your_order">Your order</string>
+
+    <!--order confirm-->
+    <string name="tab_1"></string>
+
+    <!--activity names title-->
+    <string name="registration">Registration</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_negative">NO</string>
+    <string name="error_empty_input">You cant leave input field empty</string>
+    <string name="thank_you">Thank you</string>
+
+</resources>
